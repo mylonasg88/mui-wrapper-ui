@@ -25,6 +25,7 @@ const config = {
       exports: 'named',
     },
   ],
+  external: ['@emotion/styled', '@emotion/react', 'react', 'react-dom', '@mui/material'],
   plugins: [
     postcss({
       plugins: [],
