@@ -1,29 +1,12 @@
-## Support
-
-If you like the project and want to support my work, you can buy me a coffee :)
-
-[![paypal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/kaihotz)
-
 # Getting started
 
-There are two methods for getting started with this repo.
+`npm install`
 
-#### Familiar with Git?
+In order to link this UI library into local tier project you must create a symlink for `react` folder for this UI library into tier library:
 
-```
-git clone git@github.com:KaiHotz/react-rollup-boilerplate.git
-cd react-rollup-boilerplate
-yarn install
-```
+`rm -rf node_modules/react && ln -s ../your-tier-project/node_modules/react ./node_modules/react`
 
-#### Not Familiar with Git?
-
-Click [here](https://github.com/KaiHotz/react-rollup-boilerplate/archive/master.zip) to download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-yarn install
-```
-
+This way :arrow_up: you will not have errors regarding Hooks and duplicate react imports.
 
 ## Developing
 
