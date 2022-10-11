@@ -8,6 +8,8 @@ In order to link this UI library into local tier project you must create a symli
 
 This way :arrow_up: you will not have errors regarding Hooks and duplicate react imports.
 
+Adding UI library to tier project (without npm package available): In your tier project `npm add react-rollup-boilerplate`. This will add dependency in package.json as a path to local package.
+
 ## Developing
 
 To start the developing run :
